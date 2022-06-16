@@ -4,7 +4,7 @@ Description: payroll-aws
 
 Resources:
 
-  HelloWorldLambda:
+  payrollLambda:
     Type: AWS::Serverless::Function
     Properties:
       Runtime: java8
