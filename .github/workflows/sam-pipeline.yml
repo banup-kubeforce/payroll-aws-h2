@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-java@v2
         with:
           java-version: '8'
+          distribution: 'temurin'
       - uses: aws-actions/setup-sam@v1
       - uses: aws-actions/configure-aws-credentials@v1
         with:
